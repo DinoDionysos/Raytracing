@@ -1,0 +1,1 @@
+Copy lib/dxcompiler.dll and lib/dxil.dll into bin/x64/Debug and open sln-file with VS2022.
