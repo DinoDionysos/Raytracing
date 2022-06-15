@@ -1,7 +1,11 @@
 mkdir bin
-mkdir bin/x64
-mkdir bin/x64/Debug
 
-cp ./lib/dxcompiler.dll ./bin/x64/Debug/dxcompiler.dll
+mkdir bin\x64
 
-cp ./lib/dxil.dll ./bin/x64/Debug/dxil.dll
+mkdir bin\x64\Debug
+
+
+copy .\lib\dxcompiler.dll .\bin\x64\Debug\dxcompiler.dll
+
+copy .\lib\dxil.dll .\bin\x64\Debug\dxil.dll
+PAUSE
